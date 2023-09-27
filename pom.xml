@@ -10,7 +10,6 @@
 	</parent>
 	<groupId>com.AplikasiMonitoring</groupId>
 	<artifactId>AplikasiMonitoring</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
 	<name>AplikasiMonitoring</name>
 	<description>AplikasiMonitoring</description>
 	<properties>
@@ -31,6 +30,15 @@
 			<artifactId>postgresql</artifactId>
 			<scope>runtime</scope>
 		</dependency>
+
+       <dependency>
+			<groupId>com.postgresql</groupId>
+			<artifactId>DBAplikasiMonitoring</artifactId>
+ 			<version>0.0.1-SNAPSHOT</version>
+			<name>DBAplikasiMonitoring</name>
+			<description>Aplikasi Monitoring Cisco</description>
+		</dependency>
+
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
